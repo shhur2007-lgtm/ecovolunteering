@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="partners/style.css">
+  <link rel="stylesheet" href="partners/style_slider.css">
+  <script src="partners/script_slider.js" defer></script>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <nav class="flex_container" id="header">
+        <button id="homeBtn" class="nav_button" onclick="location.href='index.html'">Главная</button>
+        <button id="charityBtn" class="nav_button" onclick="location.href='charity.html'">Благотворительность</button>
+        <button id="partnersBtn" class="nav_button" onclick="location.href='partners.html'">Наши партнёры</button>
+        <button id="aboutBtn" class="nav_button" onclick="location.href='error.html'">О нас</button>
+      </nav>
+    </header>
+
+    <div class="self_button" id="header_button">
+      <div class="button_line"></div>
+      <div class="button_line"></div>
+      <div class="button_line"></div>
+    </div>
+     
+    <select id="lang" name="lang">
+      <option value="Русский">Русский</option>
+      <option value="English">English</option>
+    </select>
+
+    <div class="slider-container">
+      <h2 id="first_h2">Наши партнёры</h2>
+      <hr>
+      <h2 id="partner_name" class="second_h2">Greenpeace</h2>
+      <div class="slider" data-slider></div>
+      <button data-btn-prev>‹</button>
+      <button data-btn-next>›</button>
+    </div>
+     
+    <main>
+      <article>
+        <h3>Greenpeace</h3>
+        <p id="first_article">
+          Greenpeace — это международная экологическая организация, которая использует мирные протесты и творческую конфронтацию для привлечения внимания к глобальным экологическим проблемам и продвижения решений. Организация занимается широким кругом вопросов, включая изменение климата, защиту лесов, сохранение биоразнообразия, охрану океанов и борьбу с загрязнением окружающей среды. Деятельность Greenpeace направлена на то, чтобы стимулировать правительства и корпорации к принятию экологически ответственных решений и формировать у общества понимание важности защиты природы.
+        </p>
+      </article>
+      <article>
+        <h3>WWF (World Wildlife Fund)</h3>
+        <p id="second_article">
+          Всемирный фонд дикой природы (WWF) — это ведущая глобальная природоохранная организация, основанная в 1961 году и работающая почти в 100 странах мира. Миссия фонда заключается в построении будущего, в котором люди и природа будут жить в гармонии. WWF занимается сохранением биологического разнообразия планеты, уделяя особое внимание защите видов животных, лесов, пресной воды и океанов. Организация активно борется с изменением климата, продвигает устойчивую торговлю и внедряет практики, способствующие сохранению природных ресурсов для будущих поколений.
+        </p>
+      </article>
+    </main>
+
+    <article class="third_article">
+      <h3 class="lol">Birdlife</h3>
+      <p id="third_article">
+        BirdLife International — это всемирное партнёрство неправительственных организаций, которое занимается охраной птиц, их среды обитания и глобального биоразнообразия. Это крупнейшее в мире объединение природоохранных организаций, включающее более 120 национальных партнёров. BirdLife реализует проекты по защите редких и исчезающих видов птиц, сохранению экосистем и развитию экологического образования. Благодаря совместным усилиям партнёров организация оказывает значительное влияние на сохранение природы во многих странах мира.
+      </p>
+    </article>
+
+    <footer>
+      <ul>
+        <li><a class="double" href="https://www.greenpeace.org/international/">Greenpeace</a></li>
+        <li><a class="double" href="https://www.worldwildlife.org/">WWF (World Wildlife Fund)</a></li>
+        <li><a class="double" href="https://www.birdlife.org/">Birdlife</a></li>
+      </ul>
+      <img class="logo" src="partners/logo.png" alt="Логотип">
+    </footer>
+   
+  </div>
+
+  <script src="partners/script.js" defer></script>
+</body>
+</html>
